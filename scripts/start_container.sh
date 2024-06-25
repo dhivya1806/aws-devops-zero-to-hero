@@ -5,4 +5,4 @@ set -e
 sudo docker pull dhivya1806/codecommit-demo:latest
 
 # Run the Docker image as a container
-sudo docker run -d -p 5000:8000 dhivya1806/codecommit-demo
+sudo docker run -d -p 5000:5000 dhivya1806/codecommit-demo
