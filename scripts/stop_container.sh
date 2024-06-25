@@ -1,4 +1,6 @@
 #!/bin/bash
 set -e
-sudo docker rmi `sudo docker image ls | egrep "^mailcow/" | awk '{print$3}'`
+containerID=`sudo docker ps | awk -F " " '{print$1}'`
+sudo docker rm -f $containerID
+
 
