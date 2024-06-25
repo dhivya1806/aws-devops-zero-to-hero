@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-sudo docker pull abhishekf5/simple-python-flask-app
+sudo docker pull dhivya1806/codecommit-demo:latest
 
 # Run the Docker image as a container
-sudo docker run -d -p 5000:5000 abhishekf5/simple-python-flask-app
+sudo docker run -d -p 5000:5000 dhivya1806/codecommit-demo
